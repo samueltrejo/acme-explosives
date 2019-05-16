@@ -1,0 +1,12 @@
+{
+    "categories": [
+        {
+            "id": "aerial",
+            "name": "Aerial"
+        },
+        {
+            "id": "ground",
+            "name": "Ground & Non-Aerial"
+        }
+    ]
+}

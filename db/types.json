@@ -1,0 +1,105 @@
+{
+	"types": [{
+			"id": "500-gram-repeaters",
+			"category": "aerial",
+			"name": "500 Gram Repeaters",
+			"description": "Ultimate in pyro-aerial action. One fuse ignites long barrages of spectacular timed bursts with vivid colors and professional show style effects."
+		},
+		{
+			"id": "200-gram-repeaters",
+			"category": "aerial",
+			"name": "200 Gram Repeaters",
+			"description": "Each multi-shot repeater is it's own aerial extravaganza with beautiful color bursts and effects that can be accompanied with whistles, crackles or loud reports."
+		},
+		{
+			"id": "aerial-assortments",
+			"category": "aerial",
+			"name": "Aerial Assortments",
+			"description": "An assortment of aerial fireworks."
+		},
+		{
+			"id": "reloadable-mortars",
+			"category": "aerial",
+			"name": "Reloadable Mortars",
+			"description": "Self-containing kits that include launching tubes and a variety of high trajectory bursting aerial shells that you load individually. Effects are designed in the same style as the larger professional versions."
+		},
+		{
+			"id": "finale-racks",
+			"category": "aerial",
+			"name": "Finale Racks",
+			"description": "These large bore shells and racks are the closest performance to true professional display fireworks on the market. Tremendous trajectory and burst scope with the most advanced effects in the industry."
+		},
+		{
+			"id": "tubes",
+			"category": "aerial",
+			"name": "Tubes",
+			"description": "Single Tubes with Tremendous trajectory and burst scope with the most advanced effects in the industry."
+		},
+		{
+			"id": "rockets-and-missiles",
+			"category": "aerial",
+			"name": "Rockets & Missiles",
+			"description": "Pyrotechnic fireworks made out of a paper tube packed with gunpowder that is propelled into the air."
+		},
+		{
+			"id": "roman-candles",
+			"category": "aerial",
+			"name": "Roman Candles",
+			"description": "A Roman candle is a traditional type of firework that ejects one or more stars or exploding shells and come in a variety of sizes."
+		},
+		{
+			"id": "aerial-spinners",
+			"category": "aerial",
+			"name": "Aerial Spinners",
+			"description": "These helicopter style items need to be lit on a hard flat surface and fly into the air with colorful showers of sparks or crackling effect."
+		},
+		{
+			"id": "parachutes",
+			"category": "aerial",
+			"name": "Parachutes",
+			"description": "Upon bursting in the air, releases a single or multiple parachutes loved by young children."
+		},
+		{
+			"id": "ground-assortments",
+			"category": "ground",
+			"name": "Ground Assortments",
+			"description": "An assortment of ground fireworks."
+		},
+		{
+			"id": "fountains",
+			"category": "ground",
+			"name": "Fountains",
+			"description": "Stationary  fireworks that produce a magical fireworks show of color,crackle,whistles and glitter from the ground up to 12 feet."
+		},
+		{
+			"id": "ground-spinners",
+			"category": "ground",
+			"name": "Ground Spinners",
+			"description": "Spinners make an illuminating impression and keep the firework fun going around and around and do not fly up in the air."
+		},
+		{
+			"id": "jumping-jacks",
+			"category": "ground",
+			"name": "Jumping Jacks",
+			"description": "A classic pyrotechnic device that looks like a firecracker, but actually produces wildly spinning assorted color ground effects that go in all directions."
+		},
+		{
+			"id": "firecrackers",
+			"category": "ground",
+			"name": "Firecrackers",
+			"description": "We offer the loudest firecrackers allowed by federal law - Wolf Pack®. All of our firecrackers meet the specifications for manufacture and performance of the U.S. Consumer Product Safety Commission."
+		},
+		{
+			"id": "smoke",
+			"category": "ground",
+			"name": "Smoke",
+			"description": "Amazing, vibrant colored smoke produced once lit."
+		},
+		{
+			"id": "wheels",
+			"category": "ground",
+			"name": "Wheels",
+			"description": "Disc shaped fireworks with various spinning and twirling colorful effects."
+		}
+	]
+}
