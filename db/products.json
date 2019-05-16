@@ -1,0 +1,286 @@
+{
+	"products": [{
+		"grucci-mineshell-mayhem-16-shot": {
+			"id": "grucci",
+			"type": "500-gram-repeaters",
+			"name": "Grucci Mineshell Mayhem, 16 Shot",
+			"description": "Need a mine cake? This firework is packed with amazing glitter mines with multi-colored pearls of red, blue, green and gold. This is sure to dazzle your audience with tons of crackle and color!"
+		},
+		"notorious": {
+			"id": "notorious",
+			"type": "500-gram-repeaters",
+			"name": "Notorious - 33 shots",
+			"description": "A multi-level gold brocade willows with colorful tips!"
+		},
+		"cosmic-carnival": {
+			"id": "cosmic",
+			"type": "500-gram-repeaters",
+			"name": "Cosmic Carnival, 12 Shot",
+			"description": "Cosmic Carnival is the winning name of our Name the Firework contest! This 500 Gram has 2 runs of multi-colored breaks with gold strobes, finishing with finale barrages of gold palms with purple and green tips and silver glitter!"
+		},
+		"garden-in-spring": {
+			"id": "garden",
+			"type": "200-gram-repeaters",
+			"name": "Garden In Spring, 7 Shot",
+			"description": "This 200 gram repeater has 7 shots of bright and repeating colors and report that will be a must have for your show!"
+		},
+		"crackling-mine": {
+			"id": "crackling",
+			"type": "200-gram-repeaters",
+			"name": "Crackling Mine, 7 Shot",
+			"description": "Red shower fountain with red and green star crackling mines. Brilliant color and great crackle."
+		},
+		"ninety-six-shot-pearl": {
+			"id": "shot-pearl",
+			"type": "200-gram-repeaters",
+			"name": "96 Shot Pearl",
+			"description": "Glowing color pearls and glittering finale with report. This one needs to be a part of your next show. Tons of firepower!"
+		},
+		"jumbo-rocket-bag": {
+			"id": "rocket-bag",
+			"type": "aerial-assortments",
+			"name": "Jumbo Rocket Bag",
+			"description": "A giant assortment filled with dozens of the best Rockets! Noise! Floral Explosions! Whistlers!"
+		},
+		"niagara-falls-assortment": {
+			"id": "niagara",
+			"type": "aerial-assortments",
+			"name": "Niagara Falls Assortment, 1 Box",
+			"description": "Roman Candles, Cones, Firecrackers, Repeaters, Fountains, Ground Spinners, Bottle Rockets, Lady Fingers, Missiles, Rockets, Sparklers and Snaps!"
+		},
+		"skyburst-rocketry-assortment": {
+			"id": "skyburst",
+			"type": "aerial-assortments",
+			"name": "Skyburst Rocketry Assortment",
+			"description": "This is our best Wolf Pack and Phantom Brand Rocket assortment for the rocket enthusiast! This assortment features our most requested larger size rockets!"
+		},
+		"copperhead-mini-shell-kit": {
+			"id": "copperhead",
+			"type": "reloadable-mortars",
+			"name": "Copperhead Mini-Shell Kit",
+			"description": "These six piece shells kits may be mini, but they are unbelievably powerful for their size with huge color bursts!"
+		},
+		"mighty-mites-mortar-kit": {
+			"id": "mighty",
+			"type": "reloadable-mortars",
+			"name": "Mighty Mites Mortar Kit",
+			"description": "Impressive \"big\" breaks packed into these mini-shells. A six-pack that produces three different multi-colored effects. The effects this mortar kit has are a color star, white glitter and crackle!"
+		},
+		"phantom-small-festival-ball": {
+			"id": "phantom",
+			"type": "reloadable-mortars",
+			"name": "Phantom Small Festival Ball",
+			"description": "Comes with mortar and 6 artillery shells that boast beautiful assorted bursts! A sensational fireworks kit!"
+		},
+		"phantom-x7-airburst-rounds": {
+			"id": "phantom",
+			"type": "finale-racks",
+			"name": "Phantom X-7 Airburst Rounds, 7 Shot",
+			"description": "This finale rack features lots of colors and effects! This finale rack contains aerial rounds featuring silver wave to red, silver wave to blue, silver wave to green, red palm tree, yellow palm tree, red peony with white glitter and finishing with a crackling chrysanthemum finale burst! This is sure to be the favorite of your guests during the show!"
+		},
+		"thermobaric-warheads": {
+			"id": "warheads",
+			"type": "finale-racks",
+			"name": "Thermobaric Warheads, 16 Shot",
+			"description": "This finale has tons of color effects that will awe the audience! This 16 shot finale has high-altitude, large diameter bursts feature multi-colored effects in red, silver, green, purple and gold with tons of glittering stars and loud crackles!"
+		},
+		"emerald-city-premier": {
+			"id": "emerald",
+			"type": "finale-racks",
+			"name": "Emerald City Premier, 9 Shot",
+			"description": "A guaranteed winner that lights up the night sky with amazing green-themed effects. Green glitter surrounds a red glitter center and then green glitter around a crackling center. It is a crowd favorite!"
+		},
+		"five-hundred-red-white-and-blue": {
+			"id": "five-hundred",
+			"type": "tubes",
+			"name": "#500 Red, White, and Blue",
+			"description": "This tube is the perfect item for your next 4th of July celebration! The guests will be amazed by the powerful patriotic high-altitude burst of red, white and blue peony breaks!"
+		},
+		"pink-powershell": {
+			"id": "pink-powershell",
+			"type": "tubes",
+			"name": "Pink Powershell",
+			"description": "This tube provides a powerful pink chrysanthemum burst, which is a perfect idea for a gender reveal party or to add a bright color to your firework shoot!"
+		},
+		"five-hundred-flourescent-yellow": {
+			"id": "yellow",
+			"type": "tubes",
+			"name": "#500 Flourescent Yellow",
+			"description": "This tube features a high altitude aerial with a spectacular and beautiful neon yellow colored burst effect!"
+		},
+		"tornado": {
+			"id": "tornado",
+			"type": "rockets-and-missiles",
+			"name": "Tornado",
+			"description": "Spins on the ground with red and green lights!"
+		},
+		"phantom-neon-rocket": {
+			"id": "phantom-neon",
+			"type": "rockets-and-missiles",
+			"name": "Phantom Neon Rocket",
+			"description": "Neon color rockets with red whistling tail, green whistling tail, red to green whistling tail, titanium whistling tail and crackle whistling tail!"
+		},
+		"jumbo-whistling-wolf-pack-rockets": {
+			"id": "wolf-rockets",
+			"type": "rockets-and-missiles",
+			"name": "Jumbo Whistling Wolf Pack Rockets",
+			"description": "This powerful rocket soars with loud whistles and report stars and color effects!"
+		},
+		"five-ball-roman-candle": {
+			"id": "five-ball-roman-candle",
+			"type": "roman-candles",
+			"name": "5 Ball Roman Candle",
+			"description": "This roman candles come with a 5 ball candle with assorted color pearls!"
+		},
+		"ten-ball-assorted-candles": {
+			"id": "ten-ball-assorted",
+			"type": "roman-candles",
+			"name": "10 Ball Assorted Candles",
+			"description": "This roman candles features,10 shot candle with assorted color pearls and report!"
+		},
+		"ten-ball-colored-pearl": {
+			"id": "ten-ball-pearl",
+			"type": "roman-candles",
+			"name": "10 Ball Colored Pearl",
+			"description": "This roman candle features 10 very bright shots of assorted color pearl candle!"
+		},
+		"artificial-satellite": {
+			"id": "artificial-satellite",
+			"type": "aerial-spinners",
+			"name": "Artificial Satellite, 12 ct. pack",
+			"description": "This Aerial Spinner spins upwards and emits showers of sparks!"
+		},
+		"alien-escape": {
+			"id": "alien-escape",
+			"type": "aerial-spinners",
+			"name": "Alien Escape",
+			"description": "Whistling high-flying spinner!"
+		},
+		"military-satellites": {
+			"id": "military-satellites",
+			"type": "aerial-spinners",
+			"name": "Military Satellites, 6 ct. bag",
+			"description": "This Aerial spinner has two separate color crackling effects!"
+		},
+		"red-white-and-blue-parachute": {
+			"id": "red-white-and-blue-parachute",
+			"type": "parachutes",
+			"name": "#5 Red, White, and Blue Parachute",
+			"description": "Powerful lift bursts with giant red, white and blue parachute with crackle."
+		},
+		"double-night-parachute": {
+			"id": "double-night-parachute",
+			"type": "parachutes",
+			"name": "Double Night Parachute, 6 ct. box",
+			"description": "Two parachutes float down with flares attached! Very Impressive!"
+		},
+		"airborne-troop": {
+			"id": "airborne-troop",
+			"type": "parachutes",
+			"name": "Airborne Troop, 6 ct. box",
+			"description": "Assorted colored parachutes with glittering spinners!"
+		},
+		"picnic-show": {
+			"id": "picnic-show",
+			"type": "ground-assortments",
+			"name": "#3 Picnic Show",
+			"description": "An assortment tray of novalties, spinners, fountains, sparklers, and more!"
+		},
+		"mystical-knight-fountain": {
+			"id": "mystical-knight",
+			"type": "ground-assortments",
+			"name": "Mystical Knight Fountain Assortment, 1 Tray",
+			"description": "An assortment tray of Novelties, Spinners, Fountains and Sparklers!"
+		},
+		"assorted-cones": {
+			"id": "assorted-cones",
+			"type": "fountains",
+			"name": "#3 Assorted Cones",
+			"description": "Sprays a shower of assorted color sparks 5 to 10 feet in the air."
+		},
+		"smokeless-celebration-candle": {
+			"id": "celebration-candle",
+			"type": "fountains",
+			"name": "Smokeless Celebration Candle",
+			"description": "Cake fountain perfect for birthdays, weddings and all special occasions. Emits a smokeless shower of sparks."
+		},
+		"moondance-fountain": {
+			"id": "moodance-fountain",
+			"type": "fountains",
+			"name": "Moondance Fountain",
+			"description": "A very long lasting beautiful fountain that emits violet pearls with gold glitter then changes to silvery glitter with crackling effect!"
+		},
+		"ground-bloom": {
+			"id": "ground-bloom",
+			"type": "ground-spinners",
+			"name": "Ground Bloom, 6 ct. pack",
+			"description": "Tasmanian devils. Three-color effect!"
+		},
+		"strobe-bloom": {
+			"id": "strobe-bloom",
+			"type": "ground-spinners",
+			"name": "Strobe Bloom Flower 4 piece box",
+			"description": "Two different spinner effects per pack that start as bright strobes and spray then spin with three colors. There are 4 pieces per pack."
+		},
+		"ground-bloom-flowers": {
+			"id": "ground-bloom-flowers",
+			"type": "ground-spinners",
+			"name": "Ground Bloom Flowers, 30 ct. box",
+			"description": "30 pack of 3 color flower pattern ground spinners!"
+		},
+		"jumping-jacks-small": {
+			"id": "jumping-jacks-small",
+			"type": "jumping-jacks",
+			"name": "Jumping Jacks, 12 packs",
+			"description": "Tri-colored spinners go wild in all directions. 12 pieces per pack, 12 packs per unit. A total of 144 pieces per unit pack!"
+		},
+		"jumbo-jumping-jacks": {
+			"id": "jumbo-jumping-jacks",
+			"type": "jumping-jacks",
+			"name": "Jumbo Jumpin' Jacks, 40 ct. box",
+			"description": "Wildly fun ground spinners that finish off flying high in the sky with green pearls."
+		},
+		"jumping-jacks-large": {
+			"id": "jumping-jacks-large",
+			"type": "jumping-jacks",
+			"name": "Jumping Jacks, 48 packs",
+			"description": "A classic pyrotechnic device that looks like a firecracker, but actually produces wildly spinning assorted color ground effects that go in all directions. 12 to a pack, 48 packs per brick. One brick pack."
+		},
+		"chinatown-red-snap": {
+			"id": "chinatown-red-snap",
+			"type": "firecrackers",
+			"name": "Chinatown Red Snap Crackers",
+			"description": "This firecracker is the loudest snap cap novelty available by law!"
+		},
+		"m-ninety-eight-wolf-pack": {
+			"id": "m-ninety-eight-wolf-pack",
+			"type": "firecrackers",
+			"name": "M-98 Wolf Pack Firecracker - 24 CountStrip",
+			"description": "Phantom's legal version of the M-80 in a 24 ct. strip."
+		},
+		"silver-salute": {
+			"id": "silver-salute",
+			"type": "firecrackers",
+			"name": "Silver Salute Select, 100 ct. box",
+			"description": "A must for every pyro enthusiast. This firecracker has the loudest bang of any firecracker. Great for day or night."
+		},
+		"color-smoke-ball": {
+			"id": "color-smoke-ball",
+			"type": "smoke",
+			"name": "Color Smoke Ball",
+			"description": "This is a pack of 12 assorted color clay smoke balls."
+		},
+		"gender-reveal-smoke": {
+			"id": "gender-reveal-smoke",
+			"type": "smoke",
+			"name": "Gender Reveal Smoke",
+			"description": "Phantom Fireworks exclusive gender reveal line provides the best way to help announce your baby's gender! Phantom's Gender Reveal Smoke comes in Blue or Pink, each individually wrapped in our blue & pink design so the surprise stays a surprise until its time to announce. Just ask our store managers and they'll be more than happy to get you the right color and keep it a surprise!"
+		},
+		"color-smoke-grenades": {
+			"id": "color-smoke-grenades",
+			"type": "smoke",
+			"name": "Color Smoke Grenades",
+			"description": "A smoke grenade with assorted colored smoke!"
+		}
+	}]
+}
