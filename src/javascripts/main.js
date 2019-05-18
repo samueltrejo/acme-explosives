@@ -1,7 +1,9 @@
+import categories from './components/categories';
+
 import '../styles/main.scss';
 
 const init = () => {
-  console.error('test');
+  categories.initCategories();
 };
 
 init();
