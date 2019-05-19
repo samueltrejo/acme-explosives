@@ -7,15 +7,15 @@ const toTypes = () => {
   $('#product-page').addClass('d-none');
 };
 
-const domStringBuilder = (array, type, category) => {
+const domStringBuilder = (array) => {
   let domString = '';
   array.forEach((item) => {
     domString += '<div class="col-3 p-3">';
     domString += `  <div id=${item.id} class="card">`;
     domString += '    <div class="card-body">';
     domString += `      <h5 class="card-title">${item.name}</h5>`;
-    domString += `      <h6 class="card-subtitle mb-2 text-muted">${category}</h6>`;
-    domString += `      <h6 class="card-subtitle mb-2 text-muted">Type: ${type}</h6>`;
+    domString += `      <h6 class="card-subtitle mb-2 text-muted">Category: ${item.categoryName}</h6>`;
+    domString += `      <h6 class="card-subtitle mb-2 text-muted">Type: ${item.typeName}</h6>`;
     domString += `      <p class="card-text">${item.description}</p>`;
     domString += '    </div>';
     domString += '  </div>';
@@ -34,11 +34,13 @@ const initProducts = (typeId, categoryId) => {
 };
 
 const initAllProducts = (types) => {
-  // let allProducts = [];
+  $('#to-types').click(toTypes);
+  let allProducts = [];
   types.forEach((type) => {
-    products.loadTypeProducts(type.id)
+    products.loadTypeProducts(type.id, type.name, type.categoryName)
       .then((typeProducts) => {
-        console.error(typeProducts, type);
+        allProducts = allProducts.concat(typeProducts);
+        domStringBuilder(allProducts);
       })
       .catch(error => console.error(error));
   });

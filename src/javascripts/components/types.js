@@ -24,7 +24,7 @@ const domStringBuilder = (array) => {
     domString += `  <div id=${item.id} class="card">`;
     domString += '    <div class="card-body">';
     domString += `      <h5 class="card-title">${item.name}</h5>`;
-    domString += `      <h6 class="category card-subtitle mb-2 text-muted">Category: ${item.category}</h6>`;
+    domString += `      <h6 class="category card-subtitle mb-2 text-muted">Category: ${item.categoryName}</h6>`;
     domString += `      <p class="card-text">${item.description}</p>`;
     domString += `      <a href="#" class="card-link see-products">${item.products.length} Products</a>`;
     domString += '    </div>';
@@ -49,7 +49,7 @@ const initAllTypes = (categories, andProducts) => {
   $('#to-categories').click(toCategories);
   let allTypes = [];
   categories.forEach((category) => {
-    types.loadCategoryTypes(category.id)
+    types.loadCategoryTypes(category.id, category.name)
       .then(categoryTypes => products.loadTypesWithProducts(categoryTypes))
       .then((matchingTypesWithProducts) => {
         allTypes = allTypes.concat(matchingTypesWithProducts);
@@ -57,6 +57,8 @@ const initAllTypes = (categories, andProducts) => {
           domStringBuilder(allTypes);
         } else {
           initProducts.initAllProducts(allTypes);
+          $('#type-page').addClass('d-none');
+          $('#product-page').removeClass('d-none');
         }
       })
       .catch(error => console.error(error));
