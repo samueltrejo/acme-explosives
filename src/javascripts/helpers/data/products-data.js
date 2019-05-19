@@ -1,12 +1,17 @@
 import axios from 'axios';
 
-const loadTypeProducts = typeId => new Promise((resolve, reject) => {
+const loadTypeProducts = (typeId, typeName, categoryName) => new Promise((resolve, reject) => {
   axios.get('../db/products.json')
     .then((response) => {
       const allProducts = Object.values(response.data.products[0]);
       const matchingProducts = allProducts.filter(product => product.type === typeId);
-      matchingProducts.type = typeId;
-      resolve(matchingProducts);
+      const newMatchingProducts = matchingProducts.map((matchingProduct) => {
+        const newMatchingProduct = matchingProduct;
+        newMatchingProduct.typeName = typeName;
+        newMatchingProduct.categoryName = categoryName;
+        return newMatchingProduct;
+      });
+      resolve(newMatchingProducts);
     })
     .catch(error => reject(error));
 });
