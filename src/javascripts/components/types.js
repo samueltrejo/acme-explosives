@@ -3,6 +3,7 @@ import types from '../helpers/data/types-data';
 import print from '../helpers/util';
 import products from '../helpers/data/products-data';
 import initProducts from './products';
+import categoryData from '../helpers/data/categories-data';
 
 const toCategories = () => {
   $('#category-page').removeClass('d-none');
@@ -11,8 +12,15 @@ const toCategories = () => {
 
 const seeProducts = (event) => {
   const typeId = event.target.closest('.card').id;
-  const category = event.target.previousElementSibling.previousElementSibling.textContent;
-  initProducts.initProducts(typeId, category);
+  console.error(typeId);
+  types.loadSpecificType(typeId)
+    .then(type => categoryData.loadSpecificCategory(type[0].category))
+    .then(category => types.loadCategoryTypes(category[0].id, category[0].name))
+    .then(categoryType => products.loadTypesWithProducts(categoryType))
+    .then((type2) => {
+      initProducts.initProducts(typeId, type2[0].name, type2[0].categoryName);
+    })
+    .catch(error => console.error(error));
   $('#type-page').addClass('d-none');
   $('#product-page').removeClass('d-none');
 };
@@ -35,12 +43,16 @@ const domStringBuilder = (array) => {
   $('.see-products').click(seeProducts);
 };
 
-const initTypes = (categoryId) => {
+const initTypes = (categories, andProducts) => {
   $('#to-categories').click(toCategories);
-  types.loadCategoryTypes(categoryId)
+  types.loadCategoryTypes(categories[0].id, categories[0].name)
     .then(categoryTypes => products.loadTypesWithProducts(categoryTypes))
     .then((matchingTypesWithProducts) => {
-      domStringBuilder(matchingTypesWithProducts);
+      if (!andProducts) {
+        domStringBuilder(matchingTypesWithProducts);
+      } else {
+        initProducts.initProducts(matchingTypesWithProducts);
+      }
     })
     .catch(error => console.error(error));
 };

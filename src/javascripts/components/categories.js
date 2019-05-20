@@ -6,7 +6,11 @@ import initTypes from './types';
 
 const seeTypes = (event) => {
   const categoryId = event.target.closest('.card').id;
-  initTypes.initTypes(categoryId);
+  categories.loadSpecificCategory(categoryId)
+    .then((specificCategory) => {
+      initTypes.initTypes(specificCategory);
+    })
+    .catch(error => console.error(error));
   $('#category-page').addClass('d-none');
   $('#type-page').removeClass('d-none');
 };
