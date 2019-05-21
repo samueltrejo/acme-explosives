@@ -15,7 +15,7 @@ const seeProducts = (event) => {
   console.error(typeId);
   types.loadSpecificType(typeId)
     .then(type => categoryData.loadSpecificCategory(type[0].category))
-    .then(category => types.loadCategoryTypes(category[0].id, category[0].name))
+    .then(category => types.loadSpecificType(typeId, category[0].name))
     .then(categoryType => products.loadTypesWithProducts(categoryType))
     .then((type2) => {
       initProducts.initProducts(typeId, type2[0].name, type2[0].categoryName);

@@ -19,10 +19,12 @@ const domStringBuilder = (array) => {
   let domString = '';
   array.forEach((item) => {
     domString += '<div class="col-3 p-3">';
-    domString += `<div id=${item.id} class="card">`;
-    domString += `<h3>${item.name}</h3>`;
-    domString += `<button class="btn btn-dark col-3 m-auto see-types">${item.types.length} Types</button>`;
-    domString += '</div>';
+    domString += `  <div id=${item.id} class="card">`;
+    domString += '    <div class="card-body">';
+    domString += `      <h5 class="card-title">${item.name}</h5>`;
+    domString += `      <a href="#" class="card-link see-types">${item.types.length} Products</a>`;
+    domString += '    </div>';
+    domString += '  </div>';
     domString += '</div>';
   });
   util.printToDom('categories', domString);

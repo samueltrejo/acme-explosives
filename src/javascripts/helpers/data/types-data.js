@@ -1,11 +1,16 @@
 import axios from 'axios';
 
-const loadSpecificType = typeId => new Promise((resolve, reject) => {
+const loadSpecificType = (typeId, categoryName) => new Promise((resolve, reject) => {
   axios.get('../db/types.json')
     .then((response) => {
       const { types } = response.data;
       const matchingType = types.filter(type => type.id === typeId);
-      resolve(matchingType);
+      const newMatchingType = matchingType.map((type) => {
+        const newType = type;
+        newType.categoryName = categoryName;
+        return newType;
+      });
+      resolve(newMatchingType);
     })
     .catch(error => reject(error));
 });
