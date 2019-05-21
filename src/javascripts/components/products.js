@@ -24,11 +24,12 @@ const domStringBuilder = (array) => {
   print.printToDom('products', domString);
 };
 
-const initProducts = (typeId, categoryId) => {
+const initProducts = (typeId, typeName, categoryName) => {
   $('#to-types').click(toTypes);
-  products.loadTypeProducts(typeId)
+  products.loadTypeProducts(typeId, typeName, categoryName)
     .then((typeProducts) => {
-      domStringBuilder(typeProducts, typeId, categoryId);
+      console.error(typeProducts);
+      domStringBuilder(typeProducts);
     })
     .catch(error => console.error(error));
 };
