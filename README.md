@@ -1,7 +1,7 @@
 # Acme Explosives
 A web app that keeps products organized into groups.
 
-![image of acme explosives app]()
+![image of acme explosives app](https://raw.githubusercontent.com/samueltrejo/acme-explosives/master/img/readme.PNG)
 
 ## Technologies Used
 * html, scss and javascript
